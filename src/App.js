@@ -1,25 +1,20 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+// COMPONENTS
+import Header from "./components/Header";
+import LandingScreen from "./components/LandingScreen";
+
 class App extends Component {
+  componentDidMount(){
+    document.title = "Skullcandy | Headphones, Earbuds, Speakers, & More"
+  }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Header />
+        <LandingScreen />
       </div>
     );
   }
