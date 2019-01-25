@@ -14,3 +14,13 @@ header {
   display: flex;
   align-items: center;
 }
+
+a, a:link, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  border-bottom: solid #999 2px;
+  /* color: blue; */
+}
