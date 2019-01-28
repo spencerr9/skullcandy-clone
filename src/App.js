@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
+import './reset.css'
+import './App.css'
 
 // COMPONENTS
-import Header from "./components/Header";
-import LandingScreen from "./components/LandingScreen";
+import Header from "./components/Header/Header.js";
+import LandingScreen from "./components/LandingScreen/LandingScreen.js";
 
 class App extends Component {
   componentDidMount(){

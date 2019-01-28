@@ -1,8 +1,11 @@
 import React from 'react';
-import skullWht from '../images/skullLogowht.png';
-import shoppingBag from '../images/outline-shop-24px.svg';
-import search from '../images/outline-search-24px.svg';
-import user from '../images/outline-user-24px.svg';
+
+import './Header.css'
+
+import skullWht from '../../images/skullLogowht.png';
+import shoppingBag from '../../images/outline-shop-24px.svg';
+import search from '../../images/outline-search-24px.svg';
+import user from '../../images/outline-user-24px.svg';
 
 export default function Header(){
     return (
