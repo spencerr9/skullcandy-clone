@@ -8,12 +8,12 @@
     background-size: cover;
 }
 
-.topLanding > div {
+.topLanding > h1 {
     color: white;
-    font-weight: 600;
+    font-weight: 900;
     font-size: 110%;
     line-height: 90%;
-    /* letter-spacing: 90%; */
+    letter-spacing: -1px;
 }
 
 .bottomLanding {

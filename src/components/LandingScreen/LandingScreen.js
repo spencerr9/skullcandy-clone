@@ -8,10 +8,10 @@ export default function LandingScreen(){
             <div className='landing' style={{height: '100%', width: '72%'}}></div>
             <div style={{height: '100%', width: '36vw', backgroundColor: 'green'}}>
                 <div className='topLanding' style={{backgroundColor: 'red', height: '50%', width: '100%'}}>
-                    <div style={{padding: '25px 25px'}}>STACK YOUR CART TO <br></br>
+                    <h1 style={{padding: '25px 25px'}}>STACK YOUR CART TO<br></br>
                         SEE WHAT YOU <br></br>
                         QUALIFY FOR
-                    </div>
+                    </h1>
                 </div>
                 <div className='bottomLanding' style={{backgroundColor: 'blue', height: '50%', width: '100%'}}></div>
             </div>
