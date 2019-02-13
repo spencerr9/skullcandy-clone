@@ -1,0 +1,22 @@
+.landing {
+    background: url(../../images/crushing.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.topLanding {
+    background: url(../../images/homeGif.gif) no-repeat center center;
+    background-size: cover;
+}
+
+.topLanding > div {
+    color: white;
+    font-weight: 600;
+    font-size: 110%;
+    line-height: 90%;
+    /* letter-spacing: 90%; */
+}
+
+.bottomLanding {
+    background: url(../../images/push.jpg) no-repeat center center;
+    background-size: cover;
+}
